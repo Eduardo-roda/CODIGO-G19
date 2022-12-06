@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tipos de Inputs</title>
+</head>
+<body>
+    <body>
+        <main>
+            <article>
+                <h1>Tipos de Inputs</h1>
+                <form>
+                    <div>
+                        <label for="text">Texto</label>
+                        <input 
+                        type="text" 
+                        id="text" 
+                        name="dni"
+                        placeholder="Ingresar su DNI"
+                        maxlength="8" 
+                        required
+                        value="78787878"  
+                        readonly 
+                        />
+                    </div>
+                    <div>
+                        <label for="number">Número</label>
+                        <input 
+                            type="number" 
+                            id="number"
+                            name="talla"
+                            min="0"
+                            max="10"
+                            step="0.1"
+                        />
+                    </div>
+                    <div>
+                        <label for="pass">Password</label>
+                        <input 
+                            type="password"
+                            id="pass"
+                            name="password"
+                        >
+                    </div>
+                    <div>
+                        <label for="date">Date</label>
+                        <input type="date" id="date">
+                    </div>
+                    <div>
+                        <label for="datetime">DateTime</label>
+                        <input type="datetime-local" id="datetime">
+                    </div>
+                    <div>
+                        <label for="radio">Radio</label>
+                        <input type="radio" name="radio">
+                        <input type="radio" name="radio">
+                        <input type="radio" name="radio">
+                    </div>
+                    <div>
+                        <label for="file">File</label>
+                        <input type="file" id="file">
+                    </div>
+                    <div>
+                        <label for="checkbox">Checkbox</label>
+                        <input type="checkbox" name="archivo" id="checkbox">
+                    </div>
+                    <div>
+                        <label for="color">Color</label>
+                        <input type="color" id="color">
+                    </div>
+                    <div>
+                        <label for="email">Email</label>
+                        <input type="email" id="email">
+                    </div>
+                    <div>
+                        <label for="text-area">Text</label>
+                        <textarea 
+                            name="text-area" 
+                            id="text-area" 
+                            cols="30" 
+                            rows="10">
+                        </textarea>
+                    </div>
+                    <div>
+                        <label for="select">Select</label>
+                        <select name="select" id="select">
+                            <option value="" hidden selected>-- seleccionar item --</option>
+                            <option value="verde">Verde</option>
+                            <option value="negro">Negro</option>
+                            <option value="amarillo">Amarillo</option>
+                        </select>
+                    </div>
+                </form>
+            </article>
+        </main>
+    </body>
+</body>
+</html>
