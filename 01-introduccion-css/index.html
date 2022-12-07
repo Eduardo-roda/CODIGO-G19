@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+        height: 100%;
+        width: 100%;
+        font-family: "Poppins", sans-serif;
+        background-color: #20252c;
+      }
+      main {
+        min-height: 100vh;
+        padding: 20px; /* Le da un contorno a toda la hoja de la Página*/
+        color: #fff;
+      }
+      article {
+        max-width: 700px;
+        margin: 0 auto; /*Eje Y , Eje X*/
+      }
+      h1 {
+        font-size: 50px;
+        text-align: center;
+      }
+      .video-youtube,
+      .imagen {
+        display: flex;
+        justify-content: center;
+        padding: 40px 0;
+      }
+      .imagen {
+        /*margin-bottom: 100px;*/
+      }
+      .referencia {
+        margin-bottom: 100px;
+      }
+      .referencia-link{
+        color: rgb(216, 216, 216);
+        font-weight: 600;
+      }
+      .cabecera-navegacion {
+        height: 60px;
+      }
+      .menu-navegacion {
+        max-width: 800px;
+        height: 100%;
+        margin: 0 auto;
+        color: #fff;
+      }
+      .menu-navegacion ul {
+        height: 100%;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        align-items: center; /*centra en el eje Y*/
+      }
+      .logo-navegacion {
+        margin-right: auto;
+        font-size: 30px;
+      }
+      .link-navegacion {
+        margin-left: 20px;
+        cursor: pointer;
+      }
+      .link-boton{
+        background-color: #fff;
+        padding: 8px 15px;
+        border-radius: 30px;
+        border: none;
+        font-weight: 600;
+        color: #454545;
+        cursor: pointer;
+      }
+    </style>
+    <title>CSS</title>
+  </head>
+  <body>
+    <header class="cabecera-navegacion">
+      <nav class="menu-navegacion">
+        <ul>
+          <li class="logo-navegacion">TUCSS</li>
+          <li class="link-navegacion">Home</li>
+          <li class="link-navegacion">Blog</li>
+          <li class="link-navegacion">
+            <button class="link-boton">Iniciar sesión</button>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <article>
+        <h1>Introducción a CSS</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia esse,
+          incidunt asperiores laborum dolorum quisquam error accusantium
+          deserunt optio soluta inventore ullam dolorem porro omnis. Ex
+          consequuntur quae earum fugit.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis et
+          magnam sint, consequuntur sed, quibusdam aliquid impedit perspiciatis
+          quis molestias earum hic dicta, laudantium fugit similique atque animi
+          laboriosam nobis.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore ut
+          unde quidem architecto eligendi. Quas quasi, aliquid distinctio sed
+          natus voluptate dolorem, enim nihil, voluptates ex modi eius doloribus
+          praesentium.
+        </p>
+        <div class="video-youtube">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/xkXtqa8kjFY"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate
+          porro autem, quia culpa beatae sed ea commodi, recusandae consequatur
+          quod delectus provident tempora sapiente incidunt quae distinctio
+          architecto repellat maiores?
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate
+          porro autem, quia culpa beatae sed ea commodi, recusandae consequatur
+          quod delectus provident tempora sapiente incidunt quae distinctio
+          architecto repellat maiores?
+        </p>
+        <div class="imagen">
+          <img
+            src="https://disenowebakus.net/imagenes/articulos/aprender-css-hojas-de-estilo-en-cascada.jpg"
+            alt="Css Imagen"
+            width="560px"
+          />
+        </div>
+
+        <p class="referencia">
+          Si quieres aprender más sobre CSS gratis, te recomiendo que visites
+          este
+          <a class="referencia-link" 
+            href="https://www.w3schools.com/css/" 
+            target="_blank">sitio web</a
+          >.
+        </p>
+      </article>
+    </main>
+  </body>
+</html>
