@@ -119,9 +119,9 @@ h1 {
 }
 
 .formulario {
-    min-height: calc(100vh - 60px);
-    background-color: red;
     display: flex;
+    height: calc(100vh - 60px);
+    align-items: center;
 }
 .formulario form{
     border: 2px solid #fff;
