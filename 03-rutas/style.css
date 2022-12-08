@@ -159,3 +159,40 @@ h1 {
     background-color: rgb(12, 151, 226);
     color: #fff;
 }
+
+#boton-whatsapp {
+    position: fixed;
+    width: 100px;
+    height: 40px;
+    bottom: 20px;
+    right: 20px;
+    background-color: rgb(22, 208, 22);
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.icono {
+    position: absolute;
+    min-height: 20px;
+    min-width: 20px;
+    right: -10px;
+    top: -10px; 
+    border-radius: 20px;
+    background-color: #fff;
+}
+.icono:hover {
+    position: static;
+}
+
+.volver {
+    height: 50px;
+    width: 700px;
+    background-color: #fff;
+    border-radius: 10px;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
