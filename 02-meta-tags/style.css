@@ -77,7 +77,7 @@ main {
     min-height: 100vh;
 }
 
-articulo {
+.articulo {     /*colocarlo en un contenedor tipo justificado*/
     max-width: 700px;
     margin: 0 auto;
 }
