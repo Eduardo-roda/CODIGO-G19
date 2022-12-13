@@ -1,0 +1,28 @@
+.container {
+    background-color: red;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container2 {
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+/* acá definimos las medidas del dispositivo */
+
+@media  (min-width:1080px) {
+    .container {
+        background-color: aqua;
+        color: #fff;
+    }
+
+    .letras {
+        color: #fff;
+        font-size: 60px
+    }
+}
