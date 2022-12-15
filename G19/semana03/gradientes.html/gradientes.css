@@ -24,5 +24,23 @@ body {
 }
 
 .gradiente-tres {
-    
+    width: 500px;
+    height: 500px;
+    border: solid;
+    background: 
+    linear-gradient(150deg, violet, pink, yellow),
+    linear-gradient(360deg, aqua, blue, #000, brown),
+    linear-gradient(300deg, rgb(223,219,25), rgb(255,104,34)25%);
 }
+
+.img-yt {
+    width: 300px;
+    height: 300px;
+    border: solid;
+    object-fit: contain;
+    filter: brightness(300%);
+}
+
+/* filter:
+sepia-saturate-brightness-blur-sepia-grayscale-hue-rotate(deg)
+*/
