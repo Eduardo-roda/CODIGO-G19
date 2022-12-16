@@ -26,7 +26,7 @@ body {
 }
 
 /* manipular por separado los child .. los hijos */
-
+/* aquí le damos un brillo con el blur */
 .loader span:nth-child(1) {
     filter: blur(5px);
 }
@@ -39,8 +39,9 @@ body {
 .loader span:nth-child(4) {
     filter: blur(50px);
 }
-
-.loader ::after {
+/* Aquí termina el brillo con el blur*/
+/* Con esto ponemos un circulo en medio*/
+.loader::after {
     content: '';
     position: absolute;
     background: #150218;
