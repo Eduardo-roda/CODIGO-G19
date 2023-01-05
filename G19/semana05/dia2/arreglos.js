@@ -27,3 +27,13 @@ alumnos[0] = "jhair";
 console.log("reasignado", alumnos)
 
 //poemos crear un nuevo elemento a un array
+
+alumnos[6] = "diago";
+alumnos[10] = "guillermo";
+
+let oficina = ["hojas", "pisapapeles", "computadora"];
+let animales = ["perro", "leon", "pantera", "conejo"];
+
+console.log(oficina[0], animales[3]);
+
+console.log("Cantidad de alumnos", alumnos.length)
