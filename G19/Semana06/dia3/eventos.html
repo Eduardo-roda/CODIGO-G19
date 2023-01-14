@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EVENTOS DOM</title>
+  </head>
+  <body>
+    <h1>
+      Eventos DOM
+
+    </h1>
+      <!--  Evento onClick uno de los más usados  -->
+      <button onclick="console.log('Hola mundo')">Mi Primer Click</button>
+      <!--<h1 onclick="console.log('desde h1')">desde otro elemento</h1>-->
+      <!--  Evento onMouseOver  -->
+      <p onmouseover="console.log('esto es mouse over')">
+        Lorem ipsum dolor, sit amet consectetur adipisicing
+        elit. Praesentium officiis animi, in quos nemo quo culpa, dignissimos
+        expedita velit deleniti dolorum alias perspiciatis dolore. Minus quas
+        animi labore voluptatum facere!
+      </p>
+      <button onmouseover="console.log('esto es mouse over 2')">onMouseOver</button>
+      <!-- evento doble click -->
+      <p ondblclick="console.log('dosClick')">Dos Click</p>
+      <button ondblclick="console.log('dosClick 2')">dos click</button>
+
+      <!-- Imprimir desde otro archivo -->
+      <button onclick="imprimir()">Imprime desde JS</button>
+      <button onclick="imprimir()">Imprime desde JS otro ejemplo</button>
+
+      <!-------------------------------------------------------------------->
+
+      <div>
+        <h2>CALCULADORA BÁSICA</h2>
+        <input type="text" placeholder="Numero 1" id="numero1">
+        <input type="text" placeholder="Numero 2" id="numero2">
+        <button onclick="calcularHTML('+')">+</button>
+        <button onclick="calcularHTML('-')">-</button>
+        <button>*</button>
+        <button>/</button>
+        <div id="resultado"></div>
+      </div>
+
+
+
+    <script src="./eventos.js"></script>
+    <script src="./operaciones.js"></script>
+  </body>
+</html>
